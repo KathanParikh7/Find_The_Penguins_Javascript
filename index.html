@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Find the Penguins</title>
+        <link rel="shortcut icon" type="image/png" href="images/penguin_1.png">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="title"></div>
+        
+        <div id="prePlay">
+            <div class="scorebox">
+                <label>High Score :&nbsp;</label><label id="highScore">0</label>
+            </div><br><br><br>
+            <a href="#" class="btn-big-red" id="startGame">Start Game</a>
+        </div>
+        
+        <div id="gameholder"> 
+            <div id="inGame" class="inGame">
+                <div class="scorebox">
+                    <label>High Score :&nbsp;</label><label id="highScoreIn">0</label>
+                </div>
+                <div class="scorebox">
+                    <label>Your Score :&nbsp;</label><label id="score">0</label>
+                </div>
+            </div>
+        </div>
+        
+        <audio id="preBG">
+          <source src="music/background music.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <audio id="inBG">
+          <source src="music/inBG.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <audio id="penguine">
+          <source src="music/penguine.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <audio id="win">
+          <source src="music/Win.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <audio id="yetiA">
+          <source src="music/gameOver.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <audio id="gameOver">
+          <source src="music/yeti.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+    </body>
+    <footer> Penguins &copy; Kathan Parikh 2020</footer>
+</html>
